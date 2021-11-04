@@ -8,13 +8,13 @@
 
 <?php 
     include("sidebar.php");
-    if($tab=='user' && $user['role']=='admin'){
+    if($tab=='user' && $user['role']=='Admin'){
         if($id){
             include("edituser.php");
         }else{
             include("user.php");
         }
-    }else if($tab=='slider' && $user['role']=='admin'){
+    }else if($tab=='slider' && $user['role']=='Admin'){
         include("slider.php");
     }else if($tab=='courier'){
         include("courier.php");
