@@ -10,7 +10,10 @@ External Libraries :
 
 ## Installation Guide
 1. Download XAMPP for Windows.
-2. Run Apache and MySQL.
-3. Import SQL File from repo
-4. Move project to /htdocs in xampp folder
-5. Open http://localhost/php-juststore in browser
+1. Run Apache and MySQL.
+1. Open http://localhost/phpmyadmin in your browser.
+1. Create a database named `juststore`.
+1. Import SQL File from repository to database `juststore`.
+1. Copy `juststore` directory to /htdocs in xampp folder.
+1. Open http://localhost/juststore in browser.
+1. Profit.
